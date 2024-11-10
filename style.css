@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font: small-caps bold 80px/1 sans-serif;
+  text-align: center;
+}
+
+p {
+  border: 5px solid transparent; /* Устанавливаем прозрачный бордер */
+  border-radius: 10px; /* Скругляем углы */
+  background-image: linear-gradient(to right, #27d88c, #63d845, #3ce916); /* Градиентный фон */
+  background-origin: border-box; /* Устанавливаем фоновое изображение на бордер */
+  background-clip: border-box; /* Ограничиваем фон границами элемента */
+  color: black; /* Черный текст */
+  padding: 15px; /* Отступы внутри элемента */
+  font: small-caps bold 24px/1 sans-serif;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+
+
+
